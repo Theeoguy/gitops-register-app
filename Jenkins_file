@@ -49,7 +49,7 @@ pipeline {
                         gitToolName: 'Default'
                     )
                 ]) {
-                    sh "git push https://github.com/Theeoguy/register-app"
+                    sh "git push https://github.com/Theeoguy/gitops-register-app"
                 }
             }
         }
