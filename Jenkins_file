@@ -45,7 +45,7 @@ pipeline {
 
                 withCredentials([
                     gitUsernamePassword(
-                        credentialsId: 'github',
+                        credentialsId: 'Github',
                         gitToolName: 'Default'
                     )
                 ]) {
